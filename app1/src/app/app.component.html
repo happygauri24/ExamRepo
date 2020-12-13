@@ -1,0 +1,17 @@
+<div class="container">
+
+  <button  (click)="launchFirstComponent()"  class="btn btn-sm btn-btn-success"> first</button>
+  <button (click)="launchSecondComponent()" class="btn btn-sm btn-btn-success"> second</button>
+  <button (click)="launchThirdComponent()"class="btn btn-sm btn-btn-success"> third</button>
+  <button (click)="launchFourthComponent()"class="btn btn-sm btn-btn-success"> fourth</button>
+
+  <hr>
+
+  <a routerLink="/first" class="btn btn-info"> first</a>
+  <a routerLink="/second" class="btn btn-info">second</a>
+  <a routerLink="/third" class="btn btn-info"> third</a>
+  <a routerLink="/fourth" class="btn btn-info"> fourth</a>
+
+  <hr>
+ <router-outlet></router-outlet>
+</div>
